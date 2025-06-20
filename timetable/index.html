@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>School Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+    
+      
+    }
+
+    .timetable {
+      width: 90%;
+      max-width: 800px;
+      border-collapse: collapse;
+      text-align: center;
+      background-color: #fff0f5;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    caption {
+      font-size: 28px;
+      font-weight: bold;
+      padding: 15px;
+      color: #333;
+      background-color: #fbdde6;
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #e5b3ff;
+      color: #000;
+    }
+
+    .time-col {
+      background-color: #a4c9ff;
+      font-weight: bold;
+    }
+
+    .day-col:nth-child(2) { background-color: #fde2e4; }
+    .day-col:nth-child(3) { background-color: #fcd5ce; }
+    .day-col:nth-child(4) { background-color: #fff1e6; }
+    .day-col:nth-child(5) { background-color: #f0efeb; }
+    .day-col:nth-child(6) { background-color: #ffc8dd; }
+  </style>
+</head>
+<body>
+
+  <table class="timetable">
+    <caption>School Timetable</caption>
+    <thead>
+      <tr>
+        <th class="time-col">Time</th>
+        <th class="day-col">Monday</th>
+        <th class="day-col">Tuesday</th>
+        <th class="day-col">Wednesday</th>
+        <th class="day-col">Thursday</th>
+        <th class="day-col">Friday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="time-col">07:00 - 07:50</td>
+        <td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td class="time-col">08:00 - 08:50</td>
+        <td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td class="time-col">09:00 - 09:50</td>
+        <td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td class="time-col">10:00 - 10:50</td>
+        <td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr>
+        <td class="time-col">11:00 - 11:50</td>
+        <td></td><td></td><td></td><td></td><td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
