@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      width: 300px;
+      height: 400px;
+      border: 2px solid #0077cc;
+      border-radius: 10px;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .card h1 {
+      font-size: 20px;
+      color: #0077cc;
+      margin-bottom: 30px;
+    }
+
+    .circle {
+      width: 120px;
+      height: 120px;
+      border: 2px solid #0077cc;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+    }
+
+    .text {
+      color: #444;
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+
+    .like {
+      color: red;
+      font-size: 14px;
+    }
+
+    .like::after {
+      content: ' ➜';
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Birth Day Card</h1>
+    <div class="circle"></div>
+    <div class="text">Wish you a Happy Birthday!!🎂😄</div>
+    <div class="like">LIKE</div>
+  </div>
+
+</body>
+</html>
